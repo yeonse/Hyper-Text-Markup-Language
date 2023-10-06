@@ -27,3 +27,14 @@
         padding-top: 0;
         padding-left: 20px;
     }
+    #tx .topline {
+        border-top: 1px solid gray;
+        padding-top: 15px;
+    }
+    #tx .bottomline {
+        border-bottom: 1px solid gray;
+        padding-bottom: 15px;
+    }
+    #grid #listtitle {
+        padding-right: 20px;
+    }

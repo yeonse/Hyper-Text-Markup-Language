@@ -4,21 +4,18 @@
 <head>
 <title>a, href, target, title</title>
 <meta charset="utf-8">
+<link rel="stylesheet" href="index.css">
 </head>
 
 <body>
 <h1><a href="index.html">Programming language</a></h1>
 
-<p>
-    <p>생활코딩: <a href="https://opentutorials.org/course/3084/18889" target="_blank">원시웹 - 웹의 역사</a>
-    / 세계 최초의 웹사이트 <a href="http://info.cern.ch" target="_blank">info.cern.ch/</a></p>
-
-    <p>웹 호스팅 방법 <a href="https://opentutorials.org/course/3084/18891" target="_blank">생활코딩: 웹호스팅 github pages</a></p>
-</p><br>
-
-<p>
-    <strong><a href="HTML.html">HTML</a><br>본문 태그</strong>
+<div id="grid">
     <ol>
+        <div id="listtitle">
+            <strong><a href="HTML.html">HTML</a><br>본문 태그</strong>
+        </div><br>
+
         <li><a href="h-strong, u.html">강조: strong, u</a></li><br>
         <li><a href="h-h1~h6.html">본문의 제목: h1~h6</a></li><br>
         <li><a href="h-br, p.html">줄바꿈과 단락: br, p</a></li><br>
@@ -26,33 +23,47 @@
         <li><a href="h-li, ul, ol.html">목차: li 및 ul, ol</a></li><br>
         <li><a href="h-body, head, html.html">뼈대: body, head, html</a></li><br>
         <li><a href="h-a, href, target, title.html">링크: a, href, target, title</a></li><br>
-    </ol></p>
+    </ol>
 
-상세설명 - <a href="https://opentutorials.org/course/3084/18418" target="_blank">생활코딩: HTML 태그의 제왕</a>
-
-<p>
-    <iframe width="560" height="315" src="https://www.youtube.com/embed/V3pkC1hE-as?si=IPAMrOB1qz0SbS4a"
-    title="YouTube video player" frameborder="0"
-    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen>
-</iframe>
-</p>
-
-    <h2>링크 a</h2>
-        <p>이 태그의 이름은 <u>anchor</u>의 첫글자 <strong>a</strong>입니다. 앵커는 배가 정박할 때 사용하는 닻을 의미합니다. <strong>a,/a</strong></p>
-        <ol><p>
-        <h3><li>속성: 위치 정보 href</li></h3>
-            <u>a태그 하나만으로는</u> 어디로 이동할 지 <strong>정보가 부족</strong>합니다. 따라서 <u>HyperText Reference</u>의 약자인
-            속성 <strong>href</strong>을 필요로 합니다. <strong>a <u>href="링크 주소"</u> /a</strong>
+    <div id="tx">
+        <p class="bottomline">
+            상세설명 - <a href="https://opentutorials.org/course/3084/18418" target="_blank">생활코딩: HTML 태그의 제왕</a>
         </p>
+
         <p>
-        <h3><li>속성: 새창 페이지 target의 _blank</li></h3>
-            <strong>target="_blank"</strong>는 링크를 클릭했을 때 <u>새창에서 페이지가 열리게 하는 속성</u>입니다.
-            <strong>a href="링크 주소" <u>target="_blank"</u> /a</strong>
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/V3pkC1hE-as?si=IPAMrOB1qz0SbS4a"
+            title="YouTube video player" frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen>
+        </iframe>
         </p>
-        <p>
-        <h3><li>속성: 내용 정보 title</li></h3>
-            <strong>title="내용 정보"</strong>은 이 링크가 <u>어떤 내용을 담고 있는지</u>를 <strong>툴팁</strong>으로 보여주는 기능입니다.
-            <strong>a href="링크 주소" target="_blank" <u>title="내용 정보"</u> /a</strong>
-        </p></ol>
+
+        <h2>링크 a</h2>
+            <p>
+                <p>
+                    이 태그의 이름은 <u>anchor</u>의 첫글자 <strong>a</strong>입니다. 앵커는 배가 정박할 때 사용하는 닻을 의미합니다. <strong>a,/a</strong>
+                </p>
+
+                <ul>
+                    <h3><li>속성: 위치 정보 href</li></h3>
+                    <p>
+                        <u>a태그 하나만으로는</u> 어디로 이동할 지 <strong>정보가 부족</strong>합니다. 따라서 <u>HyperText Reference</u>의 약자인
+                        속성 <strong>href</strong>을 필요로 합니다. <strong>a <u>href="링크 주소"</u> /a</strong>
+                    </p>
+
+                    <h3><li>속성: 새창 페이지 target의 _blank</li></h3>
+                    <p>
+                        <strong>target="_blank"</strong>는 링크를 클릭했을 때 <u>새창에서 페이지가 열리게 하는 속성</u>입니다.
+                        <strong>a href="링크 주소" <u>target="_blank"</u> /a</strong>
+                    </p>
+
+                    <h3><li>속성: 내용 정보 title</li></h3>
+                    <p>
+                        <strong>title="내용 정보"</strong>은 이 링크가 <u>어떤 내용을 담고 있는지</u>를 <strong>툴팁</strong>으로 보여주는 기능입니다.
+                        <strong>a href="링크 주소" target="_blank" <u>title="내용 정보"</u> /a</strong>
+                    </p>
+                </ul>
+            </p>
+    </div>
+</div>
 </body>
 </html>
