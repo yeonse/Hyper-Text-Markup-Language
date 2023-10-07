@@ -4,63 +4,70 @@
 <head>
 <title>style 태그</title>
 <meta charset="utf-8">
+<link rel="stylesheet" href="index.css">
 </head>
 
 <body>
-<h1><a href="index.html">Programming language</a></h1><br>
+<h1><a href="index.html">Programming language</a></h1>
 
-<p>
-    <strong><a href="CSS.html">CSS</a><br>적용 방법</strong>
-        <ol>
-            <li><a href="c-style 속성.html">style 속성</a></li>
-            <br>
-            <li><a href="c-style 태그.html">style 태그</a></li><br>
-                <ul>
-                <li><a href="c-선택자.html">선택자</a></li>
-                </ul>
-        </ol>
-</p><br>
+<div id="grid">
+    <ol>
+        <div id="listtitle">
+            <strong><a href="CSS.html">CSS</a><br>><br>적용 방법</strong><br>
+        </div>
+        <br>
+        <li><a href="c-style 속성.html">html의 <br>style 속성</a></li>
+        <br>
+        <li><a href="c-style 태그.html" class="listcolor">css의 <br>style 태그</a></li><br>
+        <ul>
+            <li><a href="c-선택자.html">선택자</a></li>
+        </ul>
+    </ol>
+    <div id="tx">
+        <p class="bottomline">
+            상세설명 - <a href="https://opentutorials.org/course/3086/18318" target="_blank">생활코딩: 혁명적 변화</a>
+        </p>
 
-<h2>style</h2>
-<p>
-    <strong>HTML</strong>과 <strong>CSS</strong>는 <u>완전히 다른 언어</u>이기 때문에 웹페이지에 <strong>CSS</strong>를
-    <u>포함시키기 위해서</u>는 웹브라우저로 하여금 <strong>어디서부터 어디까지</strong>가 <strong>CSS인지</strong>를
-    <u>알 수 있게 지정</u>해줘야 됩니다.<br>
-    그 방법으로는 <strong>style 속성</strong>, <strong>style 태그</strong> 이 두가지를 이용하는 방법이 있습니다.
-</p>
+        <p>
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/nC2-nJEXL2U?si=F4nq1rvVMx_i7or_"
+            title="YouTube video player" frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen>
+            </iframe>
+        </p>
 
-상세설명 - <a href="https://opentutorials.org/course/3086/18318" target="_blank">생활코딩: 혁명적 변화</a>
-<p>
-    <iframe width="560" height="315" src="https://www.youtube.com/embed/nC2-nJEXL2U?si=F4nq1rvVMx_i7or_"
-    title="YouTube video player" frameborder="0"
-    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen>
-    </iframe>
-</p>
+        <p>
+            <strong>HTML</strong>과 <strong>CSS</strong>는 <u>완전히 다른 언어</u>이기 때문에 웹페이지에 <strong>CSS</strong>를
+            <u>포함시키기 위해서</u>는 웹브라우저로 하여금 <strong>어디서부터 어디까지</strong>가 <strong>CSS인지</strong>를
+            <u>알 수 있게 지정</u>해줘야 됩니다.<br>
+            그 방법으로는 <strong>html의 style 속성</strong>, <strong>css의 style 태그</strong> 이 두가지를 이용하는 방법이 있습니다.
+        </p>
 
-<h2>style 태그</h2>
-<p>
-    <strong>style태그 안에 적은 코드</strong>들은 <u>웹브라우저에게</u> <strong>CSS언어라고 인지</strong>시키고
-    <strong>그 문법에 맞게 해석</strong>하도록 <u>명령</u>합니다.<br><br>
-</p>
+        <h2>style 태그</h2>
+        <p>
+            <strong>style태그 안에 적은 코드</strong>들은 <u>웹브라우저에게</u> <strong>CSS언어라고 인지</strong>시키고
+            <strong>그 문법에 맞게 해석</strong>하도록 <u>명령</u>합니다.<br><br>
+        </p>
 
-<h3>예시 코드 : style a{color:red;} /style 분석</h3>
-<p>
-<ul>
-    <h4><li>style 태그</li></h4> - <strong>효과</strong>를 <u>누구에게 지정할지를 설명할 수가 없기 때문에</u>
-    이 <strong>style태그 안에 a { }</strong> 라고 하는 이런 코드가 <u>추가적으로 더 필요</u>한 겁니다.<br>
+            <h3>예시 코드 : style a{color:red;} /style 분석</h3>
+            <p>
+            <ul>
+                <h4><li>style 태그</li></h4> - <strong>효과</strong>를 <u>누구에게 지정할지를 설명할 수가 없기 때문에</u>
+                이 <strong>style태그 안에 a { }</strong> 라고 하는 이런 코드가 <u>추가적으로 더 필요</u>한 겁니다.<br>
 
-    <h4><li>a</li></h4> - 이 <u>웹 페이지의</u> <strong>모든 a라는 태그</strong>에게 <u>어떠한 효과를 준다.</u>
-    즉, "<strong>주고 싶은 효과</strong>를 <strong>누구에게 줄 것인가</strong>를 <strong>선택</strong>하다" 라는 점에서
-    저것을 <strong><a href="c-선택자.html">선택자Selector</a></strong>라고 부릅니다.<br>
+                <h4><li>a</li></h4> - 이 <u>웹 페이지의</u> <strong>모든 a라는 태그</strong>에게 <u>어떠한 효과를 준다.</u>
+                즉, "<strong>주고 싶은 효과</strong>를 <strong>누구에게 줄 것인가</strong>를 <strong>선택</strong>하다" 라는 점에서
+                저것을 <strong><a href="c-선택자.html">선택자Selector</a></strong>라고 부릅니다.<br>
 
-    <h4><li>color:red</li></h4> - <u>선택자가 지정하는 태그들에 대해서</u> <strong>어떤 효과를 줄 것인지</strong>에 해당하며
-    <strong>선언Declaration</strong> 또는 <strong>효과</strong>라고 부릅니다.<br>
+                <h4><li>color:red</li></h4> - <u>선택자가 지정하는 태그들에 대해서</u> <strong>어떤 효과를 줄 것인지</strong>에 해당하며
+                <strong>선언Declaration</strong> 또는 <strong>효과</strong>라고 부릅니다.<br>
 
-    <h4><li>color</li></h4> - <strong>속성Property</strong>라고 부르며,<br>
+                <h4><li>color</li></h4> - <strong>속성Property</strong>라고 부르며,<br>
 
-    <h4><li>red</li></h4> - <u>속성</u>의 <strong>값Value</strong>라고 부릅니다.
-    <u>효과 끝에는 ;세미콜론</u>을 꼭 붙여주어야 합니다.
-</ul>
-</p>
+                <h4><li>red</li></h4> - <u>속성</u>의 <strong>값Value</strong>라고 부릅니다.
+                <u>효과 끝에는 ;세미콜론</u>을 꼭 붙여주어야 합니다.
+            </ul>
+            </p>
+    </div>
+</div>
 </body>
 </html>

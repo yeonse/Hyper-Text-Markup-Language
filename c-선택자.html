@@ -4,48 +4,63 @@
 <head>
 <title>CSS 선택자</title>
 <meta charset="utf-8">
+<link rel="stylesheet" href="index.css">
 </head>
 
 <body>
-<h1><a href="index.html">Programming language</a></h1><br>
+<h1><a href="index.html">Programming language</a></h1>
 
-<p>
-    <strong><a href="c-style 태그.html">style 태그</a><br>선택자</strong>
+<div id="grid">
     <ol>
-    <li><a href="c-전체 선택자.html">전체 선택자</a></li>
-    <br>
-    <li><a href="c-태그 선택자.html">태그 선택자</a></li>
-    <br>
-    <li><a href="c-class 선택자.html">class 선택자</a></li>
-    <br>
-    <li><a href="c-id 선택자.html">id 선택자</a></li>
+        <div id="listtitle">
+            <strong><a href="CSS.html">CSS</a></strong><br>><br>
+            <strong><a href="c-style 태그.html">style 태그</a></strong><br>><br>
+            <strong>선택자</strong><br>
+        </div>
+        <br>
+        <li><a href="c-전체 선택자.html">전체 선택자</a></li>
+        <br>
+        <li><a href="c-태그 선택자.html">태그 선택자</a></li>
+        <br>
+        <li><a href="c-class 선택자.html">class 선택자</a></li>
+        <br>
+        <li><a href="c-id 선택자.html">id 선택자</a></li>
     </ol>
-</p><br>
 
-<h2>선택자 Selector</h2>
-<p><img src="img/c-selector.jpg" width="50%"></p>
-<p>
-    <ul>
-        <h3><li><u>a</u>가 의미하는 바</li></h3>
-        - 이 <u>웹 페이지의</u> <strong>모든 a라는 태그</strong>에게 <u>어떠한 효과를 준다.</u>
-        즉, "<strong>주고 싶은 효과</strong>를 <strong>누구에게 줄 것인가</strong>를 <strong>선택</strong>하다" 라는 점에서
-        저것을 <strong>선택자Selector</strong>라고 부릅니다.<br>
+    <div id="tx">
+        <p class="bottomline">
+            w3schools: <a href="https://www.w3schools.com/cssref/sel_all.php">CSS * Selector</a>
+        </p>
 
-        <strong>선택자Selector</strong>는 <strong>태그의 전체</strong>가 <u>될 수도 있고</u>,
-        때로는 <u>여러 개의 요소들을 묶어</u> <strong>별도의 선택자</strong>로 만들 수도 있습니다.<br><br>
+        <p>
+            <img src="img/c-selector.jpg" width="50%">
+        </p>
 
-        따라서 <strong>선택자의 종류</strong>에는
-        <a href="c-전체 선택자.html"><strong>전체 선택자</strong></a>,
-        <a href="c-태그 선택자.html"><strong>태그 선택자</strong></a>,
-        <a href="c-class 선택자.html"><strong>클래스 선택자</strong></a>,
-        <a href="c-id 선택자.html"><strong>아이디 선택자</strong></a>로 나뉜다.
-        
-        <h3><li>선택자의 영향력</li></h3>
-        <strong>전체 < 태그 < 클래스 < 아이디</strong><br><br>
+        <h2>선택자 Selector</h2>
+        <p>
+            <ul>
+                <h3><li><u>a</u>가 의미하는 바</li></h3>
+                - 이 <u>웹 페이지의</u> <strong>모든 a라는 태그</strong>에게 <u>어떠한 효과를 준다.</u>
+                즉, "<strong>주고 싶은 효과</strong>를 <strong>누구에게 줄 것인가</strong>를 <strong>선택</strong>하다" 라는 점에서
+                저것을 <strong>선택자Selector</strong>라고 부릅니다.<br>
 
-        <strong>영향력이 같다면</strong> 즉, <strong>서로 다른</strong> <u>태그 선택자가 있다면</u> 보다 <u>아래에 위치한 태그 선택자가</u>
-        <strong>더 큰 영향력</strong>을 가지게 되어 <u>그 선택자의 코드 명령을 듣게 됩니다.</u>
-    </ul>
-</p>
+                <strong>선택자Selector</strong>는 <strong>태그의 전체</strong>가 <u>될 수도 있고</u>,
+                때로는 <u>여러 개의 요소들을 묶어</u> <strong>별도의 선택자</strong>로 만들 수도 있습니다.<br><br>
+
+                따라서 <strong>선택자의 종류</strong>에는
+                <a href="c-전체 선택자.html"><strong>전체 선택자</strong></a>,
+                <a href="c-태그 선택자.html"><strong>태그 선택자</strong></a>,
+                <a href="c-class 선택자.html"><strong>클래스 선택자</strong></a>,
+                <a href="c-id 선택자.html"><strong>아이디 선택자</strong></a>로 나뉜다.
+                
+                <h3><li>선택자의 영향력</li></h3>
+                <strong>전체 < 태그 < 클래스 < 아이디</strong><br><br>
+
+                <strong>영향력이 같다면</strong> 즉, <strong>서로 다른</strong> <u>태그 선택자가 있다면</u> 보다 <u>아래에 위치한 태그 선택자가</u>
+                <strong>더 큰 영향력</strong>을 가지게 되어 <u>그 선택자의 코드 명령을 듣게 됩니다.</u>
+            </ul>
+        </p>
+    </div>
+</div>
 </body>
 </html>
