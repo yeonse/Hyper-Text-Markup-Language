@@ -4,46 +4,74 @@
     h1 {
         font-size: 40px;
         text-align: center;
-        border-bottom: 1px solid gray;
+        border-bottom: 1px solid #eee;
         margin: 0;
         padding: 20px;
+        box-shadow: 0px 0px 10px #666;
     }
-    a :visited {
-        color: none;
+    img {
+        display: block;
+        width: 560px; height: 315px;
+        margin-left: auto;
+        margin-right: auto;
+        box-shadow: 0 0 10px #666;
+    }
+    iframe {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        box-shadow: 0 0 10px #666;
+    }
+    a {
+        text-decoration: none;
+        color: gray;
+    }
+    a:hover, a:focus {
+        color: black;
+    }
+    li a {
+        font-weight: bold;
     }
     h1 a {
         color: black;
         text-decoration-line: none;
     }
-    ol {
-        font-size: 20px;
+    #grid #liul {
+        font-size: 18px;
     }
-    ol .listcolor {
-        color: gray;
+    ul .listcolor {
+        color: black;
     }
-    #grid ol {
-        border-right: 1px solid gray;
+    #grid #liul {
+        border-right: 1px solid #eee;
         width: 110px;
         margin: 0;
         padding: 20px;
         padding-left: 40px;
+        box-shadow: 0px 10px 10px #666
     }
     #grid {
         display: grid;
         grid-template-columns: 150px 1fr;
     }
     #tx {
-        padding: 10px;
         padding-top: 0;
         padding-left: 30px;
+        padding-right: 30px;
+        margin-left: 20px;
+        margin-right: 170px;
+        border-right: 1px solid #eee;
     }
     #tx .topline {
-        border-top: 1px solid gray;
+        border-top: 1px solid #eee;
         padding-top: 15px;
     }
     #tx .bottomline {
-        border-bottom: 1px solid gray;
+        border-bottom: 1px solid #eee;
         padding-bottom: 15px;
+    }
+    #tx #textcenter {
+        text-align: center;
     }
     #grid #listtitle {
         padding-right: 20px;
@@ -53,7 +81,7 @@
         #grid {
             display: block;
         }
-        #grid ol {
+        #grid ul {
             border-right: none;
         }
         h1 {
