@@ -23,7 +23,7 @@
     
     <div id="tx">
         <p class="bottomline" id="textcenter">
-            <a href="https://opentutorials.org/course/3084/18445" target="_blank">생활코딩: 코딩과 HTML</a>
+            생활코딩: <a href="https://opentutorials.org/course/3084/18445" target="_blank">코딩과 HTML</a>
         </p>
 
         <p><iframe width="560" height="315" src="https://www.youtube.com/embed/MLXlXCwA0T4?si=ZNFHzm2ad2h08BBq"
@@ -33,36 +33,72 @@
         </p>
 
         <h2>HTML</h2>
+        <p>
             <p>
-                <p>
-                <strong>Hyper Text Markup Language</strong>의 약어로 <u>웹 페이지에 <strong>정보를 표현하기 위해서 고안된</u> 마크업 언어</strong>입니다.
-                또한, <strong>HTML</strong>은 제목, 단락, 목록 등과 같은 <u>본문을 위한 구조적 의미</u>를 나타내는 것뿐만 아니라
-                링크, 인용과 그 밖의 항목으로 <strong>구조적 문서를 만들 수 있는 방법을 제공</strong>합니다.
-                </p>
-                <ul>
-                <p>
+            <strong>Hyper Text Markup Language</strong>의 약어로 <strong>웹 페이지에 정보를 표현</strong>하기 위해서
+            고안된 마크업 <strong>언어</strong>입니다.
+            또한, <strong>본문을 위한 구조적 의미</strong>를 나타내는 <strong>제목, 단락, 목록</strong> 등 뿐만 아니라
+            <strong>링크, 인용과 그 밖의 항목으로</strong> 구조적 <strong>문서를 만들 수 있는 방법을 제공</strong>합니다.
+            </p>
+
+            <ul class="bottomline">
                 <h3><li>태그 Tag <></li></h3>
-                    <strong>태그</strong>라는 말 들어보셨죠? 어디서 들어봤나요?
-                    <u>옷을 살 때 붙어 있는 것이 태그죠.</u> 그 <strong>태그</strong>가 하는 역할이 무엇인가요?
-                    <u>그 옷을 설명합니다.</u>
+                <p>
+                    <strong>옷을 살 때 붙어 있는</strong> 것이 태그죠. 그 <strong>태그는 옷을 설명</strong>합니다.
 
-                    다시 <strong>HTML의 태그</strong>를 바라봅시다. <u>HTML과 같은 언어를 만든 사람들은</u>
-                    이 언어를 만들 때 자신들이 만든 문법을 <u>사람들이 쉽게 이해하기를 원했습니다.</u>
+                    HTML과 같은 언어를 만든 사람들은 이 <strong>언어를 만들 때</strong>
+                    자신들이 만든 문법을 <strong>사람들이 쉽게 이해하기를 원했습니다.</strong>
 
-                    그래서 <u>일상에서 자주 쓰는 말</u> 중에 <strong>그 문법과 비슷한 말</strong>을 찾았겠죠.
-                    그래서 찾은 <strong>비유, 은유</strong>가 바로 <strong>태그</strong>입니다.<br>
-                </ul>
+                    그래서 그 문법과 비슷한 말을 일상에서 자주 쓰는 말 중에 찾았습니다.
+                    <strong>그래서 많은 태그들이 비유와 은유적인 표현으로 이루어져있습니다.</strong><br><br>
+
+                    <strong>대부분</strong>의 태그의 경우, <strong>열고 tag 닫는 /tag 형식</strong>을 따릅니다.
+                    하지만 HTML의 여러 태그 중에 <strong>무엇인가를 설명하지 않는 태그</strong>들은 <strong>설명할 대상이 없기에</strong>
+                    감싸야하는 컨텐츠가 없습니다. 따라서 <strong>태그를 닫지 않는다</strong>는 규칙이 있습니다.
+                    <strong>img, input, br, hr, meta 등</strong>이 <strong>닫지 않는 태그의 사례</strong>입니다.
+                </p>
+            </ul>
+
+            <p class="bottomline" id="textcenter">
+                생활코딩: <a href="https://opentutorials.org/course/3084/18409" target="_blank">문서의 구조와 슈퍼스타들</a>
             </p>
-            <p class="topline">
-                - 모든 태그의 이름들은 <u><strong><></strong>으로 감싸</u>져있습니다. -
-                - <strong>!--</strong>로 열고 <strong>--</strong>로 닫힌 태그 안에 있는 코드들은 생략됩니다. -
+        
+            <p>
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/sVt5nyz3Gdo?si=fz6QspBc0YX7UoIM"
+                title="YouTube video player" frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen>
+            </iframe>
             </p>
-            <p class="topline">
-                생활코딩: <a href="https://opentutorials.org/course/3084/18889" target="_blank">원시웹 - 웹의 역사</a>
-                / 세계 최초의 웹사이트 <a href="http://info.cern.ch" target="_blank">info.cern.ch/</a>
+
+            <h3>뼈대 구조</h3>
+            <ul>
+                <h4><li>body, head</li></h4>
+                <p>
+                    HTML을 만든 사람들은 <strong>본문</strong>과 <strong>본문을 설명하는 정보</strong>를
+                    각기 다른 태그로 <strong>분리해서 정리 정돈</strong>하기로 했습니다.
+                    <strong>본문을 의미하는 body태그</strong>와 <strong>본문을 설명하는 head태그</strong>를 사용합니다.
+                </p>
+
+                <h4><li>html</li></h4>
+                <p>
+                    <strong>body태그</strong>와 <strong>head태그</strong>를 <strong>감싸는 하나의 태그</strong>를 두기로 약속했습니다.
+                    바로 <strong>html태그</strong> 입니다. <strong>이 웹페이지가 HTML로서 만들어졌다는 것을 표현</strong>하기 위해서
+                    문서의 맨위 시작 부분에 <strong>!doctype html</strong>를 추가합니다. 이렇게 해서 웹페이지의 구조가 완성됩니다.
+                </p>
+            </ul>
+        </p>
+        <br>
+
+        <p class="topline">
+            설명하는 모든 태그의 이름들은 <strong><></strong>으로 감싸져있습니다.
+            <strong>!--</strong>로 열고 <strong>--</strong>로 닫힌 태그 안에 있는 코드들은 생략됩니다.
+        </p>
+        <p class="topline">
+            생활코딩: <a href="https://opentutorials.org/course/3084/18889" target="_blank">원시웹 - 웹의 역사</a>
+            / 세계 최초의 웹사이트 <a href="http://info.cern.ch" target="_blank">info.cern.ch/</a>
             
-                웹 호스팅 방법 <a href="https://opentutorials.org/course/3084/18891" target="_blank">생활코딩: 웹호스팅 github pages</a>
-            </p>
+            웹 호스팅 방법 <a href="https://opentutorials.org/course/3084/18891" target="_blank">생활코딩: 웹호스팅 github pages</a>
+        </p>
     </div>
 </div>
 </body>
