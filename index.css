@@ -44,9 +44,9 @@
         display: grid;
         grid-template-columns: 150px 1fr;
         padding-top: 10px;
+        margin: 0 10%;
         margin-top: 20px;
-        margin-left: 150px;
-        margin-right: 150px;
+
     }
     #grid #liul {
         font-size: 18px;
